@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome</title>
+    <link rel="stylesheet" href="style.css">   
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+       
+        }
+        body{
+            font-family:'Times New Roman', Times, serif;
+        }
+    .main{
+        
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+    }.face{
+
+        height:100%;
+        width: 40%;
+    }
+    .face2{
+        height: 100%;
+        width: 60%;
+        background-color: cyan;
+    }
+    .box{
+    width: 100%;
+    display: flex;
+height: 50%;}
+.child1{
+    height: 100%;
+    width: 50%;
+    background-image: url("https://images.unsplash.com/photo-1592187270271-9a4b84faa228?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
+    background-position: center;
+}
+.child1s{
+    height: 100%;
+    width: 50%;    
+    background-image: url("https://images.unsplash.com/photo-1552089123-2d26226fc2b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80");
+    background-position: center;
+}
+.child{
+    height: 50%;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1442458017215-285b83f65851?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80");
+    display: flex;
+    background-position: bottom;
+    background-size: cover;
+}
+    .tools{
+background-color: aliceblue;
+border-radius: 2px;
+        align-self: flex-end;
+    }
+    .nav{
+        padding:20px 0;
+        position: fixed;
+        width: 40%;
+        top: 0;
+        display: flex;
+    }
+    ul{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        
+    }
+    li{
+       
+        list-style: none;
+    }
+  
+
+    
+    .face{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contentbox{
+   height: auto;
+   width: 80%;
+
+}
+.contentbox button{
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    color: #000;
+    text-decoration: none;
+    border-bottom:1px solid #000;
+    padding-bottom:5px ;
+    font-weight: 600;
+    font-size: 13px;
+    opacity: .8;
+}
+
+
+
+.tools{
+    position: absolute;
+}.nv{
+    display: flex;
+    margin-left: 2px;
+    justify-content: space-between;
+}
+@media (max-width:500px) {
+    .main{
+        flex-direction: column;
+    }
+    .face{
+        width: 100%;
+    }
+    .face2{
+        width: 100%;
+    }
+    .icon{
+    display: none;
+    }
+
+}
+    </style> 
+</head>
+<body>
+<div class="main">
+
+    <div class="face">
+        <div class="nav"><ul>
+            <li class="icon"><img src="arrow-left-line.png" alt="" srcset=""></li>
+           </ul> <ul class="nv"><li>Home</li>
+            <li>About</li>
+            <li class="icon"><img src="twitter-line.png" alt="" srcset=""></li>
+        
+        
+        </ul>
+        </div>
+    <div class="contentbox">
+        <h1>Hello,</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, fugiat! 
+        </p>
+        <button>Read More</button>
+    </div>
+    </div>
+
+
+    <div class="face2">
+                <div class="box">
+                    <div class="child1"></div>
+                    <div class="child1s"></div>
+                </div>
+
+        <div class="child">
+            <div class="tools">
+            <img src="arrow-left-line.png" alt="" srcset="">
+            <img src="arrow-right-line.png" alt="" srcset="">
+        </div></div></div>
+    
+</div>
+</body>
+</html>
