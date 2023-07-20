@@ -2,7 +2,7 @@
 figma design using html css responsive
 # Figma Design to HTML/CSS Conversion
 
-![Preview](ss.png)
+![Preview](/Figma-Design/ss.png)
 
 ## Introduction
 This project is a personal challenge where I converted a Figma design into a responsive website using HTML and CSS. I coded this project alone to practice my frontend development skills and learn more about web design.
@@ -17,7 +17,7 @@ The Figma design is a one-page website for a fictional creative agency. It featu
 - Media queries for responsiveness
 
 ## Preview
-![Website Preview](ss2.png)
+![Website Preview](/Figma-Design/ss.png)
 
 ## Implementation Details
 To create this website, I followed the design closely and made sure to recreate all the elements with precision. I used HTML to structure the content and CSS to style each component. Flexbox was utilized to achieve responsive layouts, ensuring the site looks great on various devices.
